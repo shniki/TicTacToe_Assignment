@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TicTacToe Assignment</string>
+    <string name="app_title">Tic Tac Toe</string>
+    <string name="player_1_name">Player 1</string>
+    <string name="player_2_name">Player 2</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_play_again">Play again</string>
+    <string name="btn_play_restart">Home</string>
+    <string name="wrong_input">Please input both players names</string>
+    <string name="diff_input">Players cant have the same name</string>
+    <string name="winner_title">Top 10 winners</string>
+    <string name="btn_winners">Top 10 Winners</string>
+    <string name="tie_txt">Its a TIE!!</string>
+</resources>
