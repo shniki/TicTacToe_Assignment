@@ -20,9 +20,9 @@ public class GameAlgorithm {
 
     private Button btn;
     private TextView tv;
-    private String[] names = new String[2];
+    private final String[] names = new String[2];
 
-    //CTOR
+    //C-TOR
     public GameAlgorithm() {
         mat = new int[3][3];
         turn = 0;
@@ -41,8 +41,8 @@ public class GameAlgorithm {
         return 'O';
     }
 
-    //tryplace() = checks if possible to place in spot (checks if taken), returns true/false
-    public boolean tryplace(int row, int col){
+    //tryPlace() = checks if possible to place in spot (checks if taken), returns true/false
+    public boolean tryPlace(int row, int col){
         return mat[row][col]==0;
     }
 
@@ -74,7 +74,7 @@ public class GameAlgorithm {
     public boolean play(int row, int col){
         if(turn==0)
             startTimer=new Date();
-        if(!tryplace(row,col))
+        if(!tryPlace(row,col))
             return false;
         mat[row][col]=(turn%2)+1;
         turn++;
@@ -139,7 +139,6 @@ public class GameAlgorithm {
         return win;
     }
 
-    //also add: Button winners, when game ends - make viewable using .
     //setter of view items
     public void setBtn(Button btn) {
         this.btn = btn;
@@ -155,8 +154,8 @@ public class GameAlgorithm {
     }
 
 
+    //also add: Button winners, when game ends - make viewable using .
 
-//README:
 
     //HOW TO USE:
     //create new game using:
@@ -167,7 +166,7 @@ public class GameAlgorithm {
     //to know if to place 'X' or 'O' - place player
 
 
-    //if(ga.tryplace(row,col))
+    //if(ga.tryPlace(row,col))
         //place in (row,col)
 
     //then use

@@ -8,8 +8,11 @@
     <string name="btn_play_again">Play again</string>
     <string name="btn_play_restart">Home</string>
     <string name="wrong_input">Please input both players names</string>
-    <string name="diff_input">Players cant have the same name</string>
-    <string name="winner_title">Top 10 winners</string>
+    <string name="diff_input">"Players can't have the same name"</string>
+    <string name="winner_title">Top 10 Winners</string>
     <string name="btn_winners">Top 10 Winners</string>
-    <string name="tie_txt">Its a TIE!!</string>
+    <string name="tie_txt">"It's a TIE!!"</string>
+    <string name="wins_txt"> WINS!!</string>
+    <string name="vs_txt"> VS </string>
+    <string name="turns_txt">"'s turns"</string>
 </resources>

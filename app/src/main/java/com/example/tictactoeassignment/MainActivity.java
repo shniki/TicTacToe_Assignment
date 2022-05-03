@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
             EditText edtPlayer1 = findViewById(R.id.player1ET); //get input line (edit text) by id
             EditText edtPlayer2 = findViewById(R.id.player2ET); //get input line (edit text) by id
 
+            boolean exists=false;
             if(edtPlayer1!=null && edtPlayer2!=null) {
                 String strPlayer1 = edtPlayer1.getText().toString();
                 String strPlayer2 = edtPlayer2.getText().toString();
@@ -39,11 +40,15 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(switchActivityIntent);
                     }
                     else
+                    {
                         Snackbar.make(view, R.string.diff_input, Snackbar.LENGTH_LONG).show();
+                        exists=true;
+                    }
                 }
             }
 
-            Snackbar.make(view, R.string.wrong_input, Snackbar.LENGTH_LONG).show();
+            if(!exists)
+                Snackbar.make(view, R.string.wrong_input, Snackbar.LENGTH_LONG).show();
         });
     }
 }

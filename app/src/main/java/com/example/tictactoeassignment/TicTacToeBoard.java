@@ -62,7 +62,7 @@ public class TicTacToeBoard extends View {
         paint.setAntiAlias(true);
 
         drawGameBoard(canvas); //draws #
-        drawMarkers(canvas); //dras X and O based on GameAlgorithm's matrix
+        drawMarkers(canvas); //draws X and O based on GameAlgorithm's matrix
         GameAlgorithm.GameResults win = game.getWin();
         if(win!=null) //draws winning line if wins
             drawWinningLine(canvas,win.getType(),win.getStart());
