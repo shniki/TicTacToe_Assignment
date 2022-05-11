@@ -9,11 +9,15 @@
 
     <Button
         android:id="@+id/btnWinners"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
+        android:backgroundTint="#BD3F58"
         android:text="@string/btn_winners"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,11 +25,12 @@
 
     <TextView
         android:id="@+id/vsTitleTV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="131dp"
+        android:layout_height="52dp"
         android:text="TextView"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/ticTacToeBoard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,8 +48,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.553"
         custom:boardColor="@color/black"
-        custom:oColor="@color/blue1"
+        custom:oColor="#0C46BC"
         custom:winningLineColor="@color/teal_200"
-        custom:xColor="@color/purple1" />
+        custom:xColor="#E40022" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
