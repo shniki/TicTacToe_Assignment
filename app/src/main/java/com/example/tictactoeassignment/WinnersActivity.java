@@ -13,6 +13,7 @@ import java.util.List;
 
 public class WinnersActivity extends AppCompatActivity {
 
+    RecyclerView recyclerView;
     static List<Winner> wins;
 
     @Override
@@ -34,7 +35,7 @@ public class WinnersActivity extends AppCompatActivity {
         }
 
         RecyclerView rvFeed = findViewById(R.id.winsView); //get recycler-view by id
-        WinnersAdapter adapter = new WinnersAdapter(wins); //create adapter
+        WinnersAdapter adapter = new WinnersAdapter(this, wins); //create adapter
         rvFeed.setAdapter(adapter); //set adapter
         //choose type of layout: linear, horological or staggered
         rvFeed.setLayoutManager(new LinearLayoutManager(this));

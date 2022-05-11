@@ -1,5 +1,8 @@
 package com.example.tictactoeassignment;
 
+import static java.lang.Long.parseLong;
+
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,31 +13,36 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class WinnersAdapter extends RecyclerView.Adapter<WinnersAdapter.ViewHolder>{
+public class WinnersAdapter extends RecyclerView.Adapter<WinnersAdapter.WinsViewHolder>{
         List<Winner> wins;
-
-    public WinnersAdapter(List<Winner> wins) {
+        Context context;
+        public class WinsViewHolder extends RecyclerView.ViewHolder
+        {
+            Winner winner;
+            public WinsViewHolder(@NonNull View itemView) {
+                super(itemView);
+                winner = new Winner(itemView.findViewById(R.id.tvMainTitle).toString(), parseLong(itemView.findViewById(R.id.tvTime).toString()));
+            }
+        }
+    public WinnersAdapter(Context c, List<Winner> wins) {
         this.wins = wins;
+        context = c;
     }
 
     @NonNull
     @Override
-    public WinnersAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public WinnersAdapter.WinsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         //inflating...
-        View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.winner_layout,parent,false);
+        View view = LayoutInflater.from(context)
+                .inflate(R.layout.winner_row, parent,false);
 
-        return new ViewHolder(view); //returning a view-holder item, which contains the inflated view information
+        return new WinsViewHolder(view); //returning a view-holder item, which contains the inflated view information
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Winner win = wins.get(position);
-
-        //puts information view (actually in view-holder)
-        holder.placeTV.setText((position+1)+")");
-        holder.timeTV.setText(win.getName());
-        holder.nameTV.setText(stringTime(win.getTime()));
+    public void onBindViewHolder(@NonNull WinsViewHolder holder, int position) {
+        holder.winner.setName(wins.get(position).getName());
+        holder.winner.setTime(wins.get(position).getTime());
     }
 
     private String stringTime(long time)

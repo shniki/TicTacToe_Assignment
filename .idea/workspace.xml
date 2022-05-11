@@ -13,19 +13,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6db9257f-e48a-4bd2-8373-cb1d75b61a6d" name="Default Changelist" comment="tried to not hard-code some strings (not possible because context is not available there - not in activity)&#10;&#10;MUST reedit cause it's ugly">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/winner_row.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/TicTacToe_Assignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TicTacToe_Assignment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/TicTacToe_Assignment.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/TicTacToe_Assignment.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/GameAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/GameAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/TicTacToeBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/TicTacToeBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/Winner.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/Winner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/WinnersActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/WinnersActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/WinnersAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/WinnersAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/shanimaor/.android/avd/Galaxy_Nexus_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/yaniv.hacker/.android/avd/Nexus_5_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -96,8 +103,9 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="android-custom-view/Users/shanimaor/AndroidStudioProjects/TicTacToeAssignment/app/src/main/java/com/example/tictactoeassignment/TicTacToeBoard.java_SELECTED" value="TicTacToeBoard" />
     <property name="android-custom-view/Users/shanimaor/AndroidStudioProjects/TicTacToeAssignment/app/src/main/java/com/example/tictactoeassignment/TicTacToeBoard.java_TicTacToeBoard_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-view/Users/yaniv.hacker/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1651347169680" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1652299380974" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-1807343917">
@@ -119,8 +127,6 @@
       <option name="MODE" value="default_activity" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
@@ -223,5 +229,17 @@
     <MESSAGE value="Contains (NEW ONLY):&#10;Game algorithm class&#10;Make button of winners appear/disappear&#10;Changeable title (based on turns)&#10;Make winning lines appear + not being able to play after win&#10;Take time samples&#10;Add to winners list&#10;&#10;MUST reedit cause it's ugly" />
     <MESSAGE value="tried to not hard-code some strings (not possible because context is not available there - not in activity)&#10;&#10;MUST reedit cause it's ugly" />
     <option name="LAST_COMMIT_MESSAGE" value="tried to not hard-code some strings (not possible because context is not available there - not in activity)&#10;&#10;MUST reedit cause it's ugly" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-field">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/WinnersActivity.java</url>
+          <line>16</line>
+          <properties field="wins" class="com.example.tictactoeassignment.WinnersActivity" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
