@@ -12,21 +12,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6db9257f-e48a-4bd2-8373-cb1d75b61a6d" name="Default Changelist" comment="tried to not hard-code some strings (not possible because context is not available there - not in activity)&#10;&#10;MUST reedit cause it's ugly">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/winner_row.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TicTacToe_Assignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TicTacToe_Assignment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/TicTacToe_Assignment.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/TicTacToe_Assignment.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/Winner.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/Winner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/WinnersActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/WinnersActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/WinnersAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tictactoeassignment/WinnersAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-    </list>
+    <list default="true" id="6db9257f-e48a-4bd2-8373-cb1d75b61a6d" name="Default Changelist" comment="Winner's page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651618796254</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Winner's page">
+      <created>1652302532343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652302532343</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +221,8 @@
     <MESSAGE value="Contains:&#10;Main activity page (input names)&#10;Tic tac toe board (active)&#10;Buttons&#10;Winners page including recycler view &#10;&#10;+ idea of Algorithm java class (in notes)&#10;&#10;Left to do:&#10;Game algorithm class&#10;Make button of winners appear/disappear&#10;Make winning lines appear + not being able to play after win&#10;Take time samples&#10;Add to winners list&#10;&#10;+ REEDIT cause it's ugly" />
     <MESSAGE value="Contains (NEW ONLY):&#10;Game algorithm class&#10;Make button of winners appear/disappear&#10;Changeable title (based on turns)&#10;Make winning lines appear + not being able to play after win&#10;Take time samples&#10;Add to winners list&#10;&#10;MUST reedit cause it's ugly" />
     <MESSAGE value="tried to not hard-code some strings (not possible because context is not available there - not in activity)&#10;&#10;MUST reedit cause it's ugly" />
-    <option name="LAST_COMMIT_MESSAGE" value="tried to not hard-code some strings (not possible because context is not available there - not in activity)&#10;&#10;MUST reedit cause it's ugly" />
+    <MESSAGE value="Winner's page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Winner's page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
