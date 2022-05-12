@@ -13,7 +13,6 @@ import java.util.List;
 
 public class WinnersActivity extends AppCompatActivity {
 
-    RecyclerView recyclerView;
     static List<Winner> wins;
 
     @Override
@@ -35,7 +34,7 @@ public class WinnersActivity extends AppCompatActivity {
         }
 
         RecyclerView rvFeed = findViewById(R.id.winsView); //get recycler-view by id
-        WinnersAdapter adapter = new WinnersAdapter(this, wins); //create adapter
+        WinnersAdapter adapter = new WinnersAdapter(wins); //create adapter
         rvFeed.setAdapter(adapter); //set adapter
         //choose type of layout: linear, horological or staggered
         rvFeed.setLayoutManager(new LinearLayoutManager(this));
@@ -71,7 +70,7 @@ public class WinnersActivity extends AppCompatActivity {
 
     private void addWinner(Winner winner)
     {
-       //make sure list contains 10 items tops, make sure it is sorted
+        //make sure list contains 10 items tops, make sure it is sorted
 
         wins.add(winner); //tries to add to wins list
         wins.sort((Winner w1,Winner w2)-> (int) (w1.getTime()-w2.getTime())); //make sure it is sorted, use compare
