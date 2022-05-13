@@ -34,8 +34,8 @@ public class WinnersAdapter extends RecyclerView.Adapter<WinnersAdapter.ViewHold
 
         //puts information view (actually in view-holder)
         holder.placeTV.setText((position+1)+")");
-        holder.timeTV.setText(win.getName());
-        holder.nameTV.setText(stringTime(win.getTime()));
+        holder.nameTV.setText(win.getName());
+        holder.timeTV.setText(stringTime(win.getTime()));
     }
 
     private String stringTime(long time)

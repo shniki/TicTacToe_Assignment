@@ -25,12 +25,14 @@
 
     <TextView
         android:id="@+id/vsTitleTV"
-        android:layout_width="131dp"
-        android:layout_height="52dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="TextView"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/ticTacToeBoard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

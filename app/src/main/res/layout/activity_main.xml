@@ -10,6 +10,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -22,7 +23,8 @@
             android:layout_height="wrap_content"
             android:foregroundTint="#4B0EB6"
             android:text="@string/player_1_name"
-            android:textColor="#E40008" />
+            android:textColor="#E40008"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/player1ET"
@@ -45,10 +47,10 @@
             android:id="@+id/player2ET"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#4E89FF"
             android:ems="10"
             android:hint="@string/enter_name"
             android:inputType="textPersonName"
-            android:backgroundTint="#4E89FF"
             android:minHeight="48dp" />
 
         <Button
@@ -57,18 +59,18 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
-            android:text="@string/btn_play"
-            android:textColor="#000000"
             android:backgroundTint="#BD3F58"
+            android:text="@string/btn_play"
             android:textAllCaps="false"
+            android:textColor="#000000"
 
             />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="375dp"
-        android:layout_height="347dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.375"
