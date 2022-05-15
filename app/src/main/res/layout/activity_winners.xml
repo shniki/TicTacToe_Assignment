@@ -27,6 +27,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@+id/winsView"
         tools:layout_editor_absoluteX="1dp">
@@ -35,12 +37,15 @@
             android:id="@+id/btnPlay2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:layout_marginRight="-15dp"
             android:text="@string/btn_play_again" />
 
         <Button
-            android:id="@+id/btnRestart2"
             android:layout_width="wrap_content"
+            android:id="@+id/btnRestart2"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="-15dp"
             android:layout_weight="1"
             android:text="@string/btn_play_restart" />
     </LinearLayout>
